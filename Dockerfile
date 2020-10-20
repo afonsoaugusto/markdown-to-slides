@@ -10,6 +10,6 @@ WORKDIR /src
 
 RUN npm install markdown-to-slides --global
 
-USER markdown
+#USER markdown
 
 ENTRYPOINT ["markdown-to-slides"]
